@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -186,44 +188,48 @@
 
 <section id="contact" class="contact-section">
     <div class="container">
-        <h2>Get In Touch</h2>
+        <h2 class="section-title">Get In Touch</h2>
 
         <div class="contact-wrapper">
 
-            <!-- INFO -->
+            <!-- LEFT -->
             <div class="contact-info">
                 <h3>Contact Information</h3>
                 <p>Feel free to reach out. I'm always open to discussing new projects.</p>
 
                 <div class="info-item">
-                    <span>📧</span>
-                    <span>truongan@example.com</span>
+                    <span class="icon">📧</span>
+                    <span>your.email@example.com</span>
                 </div>
 
                 <div class="info-item">
-                    <span>📍</span>
+                    <span class="icon">📍</span>
                     <span>Hanoi, Vietnam</span>
                 </div>
             </div>
 
-            <!-- FORM -->
+            <!-- RIGHT -->
             <form class="contact-form">
+
                 <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" required>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="John Doe">
                 </div>
 
                 <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" required>
+                    <label>Email Address</label>
+                    <input type="email" placeholder="john@example.com">
                 </div>
 
                 <div class="form-group">
                     <label>Message</label>
-                    <textarea rows="5" required></textarea>
+                    <textarea placeholder="Tell me about your project..."></textarea>
                 </div>
 
-                <button class="submit-btn">Send Message</button>
+                <button class="submit-btn">
+                    Send Message →
+                </button>
+
             </form>
 
         </div>
