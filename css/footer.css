@@ -2,27 +2,67 @@
     background: #1e293b;
     color: white;
     padding: 40px 20px;
-    text-align: center;
 }
 
+/* container căn giữa */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* layout 3 cột chuẩn */
 .footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 👈 giúp thẳng hàng dọc */
     margin-bottom: 20px;
 }
 
+/* trái */
+.footer-logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* giữa */
+.footer-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* căn giữa ngang */
+    align-items: center;      /* căn giữa dọc */
+}
+.footer-center p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+/* phải */
 .social-links {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    gap: 12px;
+    align-items: center;
 }
 
 .social-link {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background: rgba(255,255,255,0.1);
-    padding: 10px;
     border-radius: 50%;
     text-decoration: none;
     color: white;
+
+    font-size: 16px;
+
+    transition: 0.3s ease;
+}
+
+.social-link i {
+    color: rgb(254, 248, 248);
 }
 
 .social-link:hover {
@@ -30,9 +70,20 @@
     transform: translateY(-3px);
 }
 
+/* bottom */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 15px;
+    text-align: left;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+/* responsive */
 @media (max-width: 768px) {
     .footer-content {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 15px;
+        text-align: center;
     }
 }
