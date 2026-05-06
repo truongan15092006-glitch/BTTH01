@@ -45,7 +45,7 @@
     display: block;
 }
 .portfolio-item img {
-    transition: transform 0.3s;
+    transition: transform 0.4s;
 }
 
 .portfolio-item:hover img {
