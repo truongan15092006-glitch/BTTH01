@@ -82,6 +82,87 @@ body{
 
 }
 
+/* =====================================
+   TYPOGRAPHY
+===================================== */
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+}
+
+/* =====================================
+   HEADINGS
+===================================== */
+
+h1,h2,h3,h4,h5,h6{
+
+    color:#0f172a;
+
+    font-weight:700;
+
+}
+
+/* =====================================
+   CARD STYLE
+===================================== */
+
+.card{
+
+    border:none;
+
+    border-radius:16px;
+
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+/* =====================================
+   BUTTON STYLE
+===================================== */
+
+.btn{
+
+    border-radius:8px;
+
+    font-weight:600;
+
+}
+
+/* =====================================
+   FORM STYLE
+===================================== */
+
+.form-control,
+.form-select{
+
+    border-radius:10px;
+
+    padding:0.75rem 1rem;
+
+}
+
+/* =====================================
+   NAVBAR STYLE
+===================================== */
+
+.navbar{
+
+    box-shadow:0 2px 15px rgba(0,0,0,0.05);
+
+    backdrop-filter:blur(10px);
+
+}
+
 .hero-section{
 
     background: linear-gradient(
