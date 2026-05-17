@@ -50,6 +50,38 @@
 
 }
 
+/* =====================================
+   CUSTOM SPACING
+===================================== */
+
+.py-section{
+
+    padding-top:5rem;
+
+    padding-bottom:5rem;
+
+}
+
+.gap-custom{
+
+    gap:2rem;
+
+}
+
+/* =====================================
+   BODY STYLE
+===================================== */
+
+body{
+
+    background-color:var(--custom-bg-light);
+
+    color:#334155;
+
+    line-height:1.6;
+
+}
+
 .hero-section{
 
     background: linear-gradient(
