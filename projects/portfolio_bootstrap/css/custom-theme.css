@@ -1,3 +1,55 @@
+/* =====================================
+   CUSTOM BOOTSTRAP THEME
+===================================== */
+
+:root{
+
+    /* =========================
+       PRIMARY COLORS
+    ========================== */
+
+    --bs-primary:#14b8a6;
+    --bs-primary-rgb:20,184,166;
+
+    --bs-secondary:#64748b;
+    --bs-secondary-rgb:100,116,139;
+
+    /* =========================
+       CUSTOM COLORS
+    ========================== */
+
+    --custom-success:#22c55e;
+    --custom-warning:#f59e0b;
+    --custom-danger:#ef4444;
+
+    /* =========================
+       BACKGROUNDS
+    ========================== */
+
+    --custom-bg-light:#f8fafc;
+
+}
+
+/* =====================================
+   BUTTON PRIMARY
+===================================== */
+
+.btn-primary{
+
+    background-color:var(--bs-primary);
+
+    border-color:var(--bs-primary);
+
+}
+
+.btn-primary:hover{
+
+    background-color:#0d9488;
+
+    border-color:#0d9488;
+
+}
+
 .hero-section{
 
     background: linear-gradient(
