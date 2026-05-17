@@ -1,0 +1,55 @@
+.skills-section {
+    background: #f1f5f9;
+    padding: 60px 20px;
+}
+
+.skills-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Grid giống card */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Card */
+.skill-item {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Tên + % */
+.skill-item span {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Thanh */
+.skill-bar {
+    background: #e2e8f0;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Thanh progress */
+.skill-progress {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    transition: width 1s ease;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
